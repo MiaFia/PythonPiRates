@@ -2,8 +2,8 @@
 
 import json
 
-#with open ('') as file:
- #   real_people=load.json()
+with open ('People\People\A_people.json') as file:
+    real_people= filter(json.load(file), 'label'=='person')
 
 
 #use SelectString in CLI to only use data that you need
